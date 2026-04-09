@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "caseStudy": "Case Study",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "Marketing + AI + Strategy",
+    "name": "Jakub Dzwoniarski",
+    "title": "I build complete marketing systems with AI - and I started with a shovel on a construction site.",
+    "cta": "See Case Study",
+    "contact": "Contact"
+  },
+  "caseStudy": {
+    "card": {
+      "label": "Case Study",
+      "title": "From a construction site to AI-powered marketing systems",
+      "description": "A journey from zero skills to building complete marketing strategies, sales funnels, and AI applications - in 2 years."
+    },
+    "hero": {
+      "title": "I build complete marketing systems with AI - and I started with a shovel on a construction site."
+    },
+    "section1": {
+      "title": "Two years ago I had no skills, no education, no plan - just a laptop from 2016",
+      "body": "Construction work for 4 EUR/h, retail for 4.25 EUR/h. I bounced between technical schools - electronics, hospitality - no prescribed path fit. No high school diploma, no clue about marketing, and my only contact with technology was a decade of gaming on a PC bought in 2016. I still work on that same PC today."
+    },
+    "section2": {
+      "title": "900 PLN in one weekend on Vinted vs a full week's salary - that was the first signal",
+      "body": "Selling clothes on Vinted, I earned in a weekend what took a full week at my job. It wasn't a \"eureka\" moment - it was simple math that changed how I think about where to invest my time. I started looking for what I could do better than manual labor.",
+      "metricLeft": "900 PLN",
+      "metricLeftLabel": "weekend on Vinted",
+      "metricRight": "900 PLN",
+      "metricRightLabel": "full week employed"
+    },
+    "section3": {
+      "title": "3,000 failed cold calls taught me that without product-market fit, no amount of effort helps",
+      "body": "I bought a course for 1,500 PLN from someone who was better at selling dreams than tools. I made 3,000 calls. Return: ~500 PLN.",
+      "subtitle": "What went wrong",
+      "bullets": [
+        "No product-market fit - I was selling something the market didn't need in that form",
+        "No processes or procedures - \"call, show up, talk, leave\" is not a sales system",
+        "Dunning-Kruger effect - my confidence came from ignorance, not competence"
+      ],
+      "closing": "That failure cost me months and my reputation. But I learned things no course can teach: that business isn't what's on the surface - it's 10 levels deeper."
+    },
+    "section4": {
+      "title": "I stopped doing everything for everyone and started diagnosing systems",
+      "body": "I wanted to offer every service to every client. SEO, social media, ads, copywriting - everything at once. Results were poor. I began to understand that clients don't have a marketing problem - they have a system problem. Instead of patching things together, I look for root causes, not symptoms."
+    },
+    "section5": {
+      "title": "My process starts with asking \"why does the client need this\" - not what they ordered",
+      "intro": "When a client comes to me for a website or an ad, I don't start with design. I start with diagnosis.",
+      "steps": [
+        {
+          "title": "Research",
+          "body": "Market, competitor, and customer behavior analysis. Master personas, psychographic data, in-depth interviews. I look for market gaps, customer slang, and communication patterns to leverage."
+        },
+        {
+          "title": "Strategy",
+          "body": "I answer the question: what are we NOT doing. Three priorities per quarter, reverse engineering from the goal. A sales funnel tailored to fit - not a template."
+        },
+        {
+          "title": "Execution",
+          "body": "Copywriting first, design second, conversion optimization last. Never \"build a page in one prompt\". Each layer separately, each one verified."
+        }
+      ]
+    },
+    "section6": {
+      "title": "AI doesn't replace my thinking - but it lets me carry what normally requires a team",
+      "body": "I was skeptical about AI. In 2023 I dismissed ChatGPT as a toy. Now I code applications in Claude Code, build sales funnels with AI, and automate processes. The shift didn't come overnight - I tested, got disappointed, came back with open eyes.",
+      "body2": "My approach: AI does one thing at a time, well, under my control. Mindless delegation without critical thinking is a recipe for failure. Human-in-the-loop always.",
+      "timeline": [
+        { "year": "2023", "label": "Dismissed ChatGPT" },
+        { "year": "2024", "label": "First experiments" },
+        { "year": "2025", "label": "Claude as a partner" },
+        { "year": "2026", "label": "Building apps and systems" }
+      ]
+    },
+    "section7": {
+      "title": "In 60 days I built complete marketing strategies for two companies from scratch - simultaneously",
+      "body": "A hunting store and a law firm. Two completely different industries, running in parallel. From competitor analysis, through personas and brand communication, to sales funnels, lead magnets, and channel implementation.",
+      "subtitle": "What I delivered",
+      "bullets": [
+        "Complete marketing strategies based on deep market research",
+        "Sales and marketing funnels with conversion mechanics",
+        "Unique value propositions and brand communication",
+        "Operational channel implementation from zero",
+        "Systems that continue working without me"
+      ],
+      "metrics": [
+        { "value": "60", "unit": "days", "label": "zero to system" },
+        { "value": "2", "unit": "", "label": "industries in parallel" },
+        { "value": "0→1", "unit": "", "label": "complete strategy" }
+      ]
+    },
+    "section8": {
+      "title": "Selected as the best out of 60 candidates - at 20 years old with two years of experience",
+      "body": "60 people applied for a marketing position. I got the job because the breadth of my knowledge exceeded the average - strategy, sales psychology, technology, and automation combined.",
+      "body2": "In parallel, I built working AI applications - a legal document anonymizer and a design generator - with zero prior programming experience.",
+      "metrics": [
+        { "value": "1", "unit": "of 60", "label": "candidates" },
+        { "value": "20+", "unit": "", "label": "marketing systems" },
+        { "value": "1,400", "unit": "", "label": "organic conversions" },
+        { "value": "2", "unit": "", "label": "AI applications" }
+      ]
+    },
+    "section9": {
+      "title": "What I know now that I didn't know two years ago",
+      "intro": "Every stage of this journey - from the shovel, through Vinted, cold calls, freelance, to AI - left concrete lessons.",
+      "lessons": [
+        {
+          "title": "Product-market fit is the foundation",
+          "body": "Without it, 3,000 calls equals 500 PLN and a lesson in humility"
+        },
+        {
+          "title": "Diagnose the system, not the symptom",
+          "body": "The client says \"I want a website\" but the problem is 10 levels deeper"
+        },
+        {
+          "title": "AI is a force multiplier, not a thinking replacement",
+          "body": "One person with AI can carry what used to require a team - but only if they control the process"
+        },
+        {
+          "title": "Build wide, then go deep",
+          "body": "Marketing + sales + strategy + technology is a stack that compounds"
+        },
+        {
+          "title": "Failures teach faster than courses",
+          "body": "But only if you extract lessons instead of repeating mistakes"
+        }
+      ],
+      "closing": "Next step: going deep into technology. Backend, Python, frontend frameworks. The goal - combine marketing, strategy, and technology into a stack that lets me build products, not just promote them."
+    }
+  },
+  "footer": {
+    "built": "Built with AI",
+    "rights": "All rights reserved"
+  }
+}

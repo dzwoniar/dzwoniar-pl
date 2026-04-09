@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Start",
+    "caseStudy": "Case Study",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "label": "Marketing + AI + Strategia",
+    "name": "Jakub Dzwoniarski",
+    "title": "Buduję kompletne systemy marketingowe z AI - a zaczynałem od łopaty na budowie.",
+    "cta": "Zobacz Case Study",
+    "contact": "Kontakt"
+  },
+  "caseStudy": {
+    "card": {
+      "label": "Case Study",
+      "title": "Od łopaty na budowie do systemów marketingowych z AI",
+      "description": "Droga od zera kompetencji do budowania kompletnych strategii marketingowych, lejków sprzedażowych i aplikacji z AI - w 2 lata."
+    },
+    "hero": {
+      "title": "Buduję kompletne systemy marketingowe z AI - a zaczynałem od łopaty na budowie."
+    },
+    "section1": {
+      "title": "Dwa lata temu nie miałem kompetencji, wykształcenia ani planu - tylko laptop z 2016 roku",
+      "body": "Budowa za 16 zł/h, sklep za 17 zł/h. Przeskakiwałem między technikami - elektronik, hotelarz - żadna narzucona ścieżka nie pasowała. Nie miałem szkoły średniej, nie miałem pojęcia o marketingu, a jedyny kontakt z technologią to dekada grania na PC kupionym w 2016 roku. Na tym samym PC pracuję do dziś."
+    },
+    "section2": {
+      "title": "900 zł w weekend na Vinted vs tygodniówka na etacie - to był pierwszy sygnał",
+      "body": "Sprzedając ubrania na Vinted zarobiłem w weekend tyle, ile na etacie w tydzień. To nie była historia \"eureka\" - to był prosty rachunek, który zmienił moje myślenie o tym, gdzie warto inwestować czas. Zacząłem szukać, co mogę robić lepiej niż praca fizyczna.",
+      "metricLeft": "900 zł",
+      "metricLeftLabel": "weekend na Vinted",
+      "metricRight": "900 zł",
+      "metricRightLabel": "tydzień na etacie"
+    },
+    "section3": {
+      "title": "3000 nieudanych cold calli nauczyły mnie, że bez product-market fit żadna skala wysiłku nie pomoże",
+      "body": "Kupiłem kurs za 1500 zł od kogoś, kto lepiej sprzedawał marzenia niż narzędzia. Zrobiłem 3000 telefonów. Zwrot: ~500 zł.",
+      "subtitle": "Co poszło nie tak",
+      "bullets": [
+        "Brak product-market fit - sprzedawałem coś, czego rynek nie potrzebował w tej formie",
+        "Brak procesów i procedur - \"dzwoń, przyjdź, pogadaj, wyjdź\" to nie jest system sprzedaży",
+        "Efekt Dunninga-Krugera - pewność siebie brała się z ignorancji, nie z kompetencji"
+      ],
+      "closing": "Ta porażka kosztowała mnie miesiące i reputację. Ale nauczyłem się rzeczy, których żaden kurs nie jest w stanie przekazać: że biznes to nie powierzchnia, ale 10 poziomów niżej."
+    },
+    "section4": {
+      "title": "Przestałem robić wszystko dla wszystkich i zacząłem diagnozować systemy",
+      "body": "Chciałem oferować każdą usługę każdemu klientowi. SEO, social media, reklamy, copywriting - wszystko naraz. Efekty były mizerne. Zacząłem rozumieć, że klienci nie mają problemu z marketingiem - mają problemy z systemem. Zamiast łatać firmę \"na sznurek\", szukam przyczyn, nie symptomów."
+    },
+    "section5": {
+      "title": "Mój proces zaczyna się od pytania \"dlaczego klient tego potrzebuje\" - nie od tego co zamówił",
+      "intro": "Kiedy klient przychodzi po stronę albo reklamę, nie zaczynam od designu. Zaczynam od diagnozy.",
+      "steps": [
+        {
+          "title": "Research",
+          "body": "Analiza rynku, konkurencji i zachowań klientów. Master-persony, dane psychograficzne, wywiady pogłębione. Szukam luk rynkowych, slangu klientów i wzorców komunikacji do wykorzystania."
+        },
+        {
+          "title": "Strategia",
+          "body": "Odpowiadam sobie na pytanie: czego NIE robimy. Trzy priorytety na kwartał, inżynieria wsteczna od celu. Lejek sprzedażowy uszyty na miarę - nie szablon."
+        },
+        {
+          "title": "Egzekucja",
+          "body": "Copywriting najpierw, design później, optymalizacja konwersji na końcu. Nigdy \"zrób stronę w jednym prompcie\". Każda warstwa osobno, każda weryfikowana."
+        }
+      ]
+    },
+    "section6": {
+      "title": "AI nie zastępuje mojego myślenia - ale pozwala mi dźwignąć to, co normalnie wymaga zespołu",
+      "body": "Byłem sceptyczny wobec AI. W 2023 skreśliłem ChatGPT jako zabawkę. Teraz koduję aplikacje w Claude Code, buduję lejki sprzedażowe z AI i automatyzuję procesy. Zmiana nie przyszła nagle - testowałem, rozczarowywałem się, wracałem z otwartymi oczami.",
+      "body2": "Moje podejście: AI robi jedną rzecz na raz, dobrze, pod moją kontrolą. Bezmyślne delegowanie bez krytycznego myślenia to przepis na porażkę. Human-in-the-loop zawsze.",
+      "timeline": [
+        { "year": "2023", "label": "Skreślony ChatGPT" },
+        { "year": "2024", "label": "Pierwsze eksperymenty" },
+        { "year": "2025", "label": "Claude jako partner" },
+        { "year": "2026", "label": "Koduję aplikacje, buduję systemy" }
+      ]
+    },
+    "section7": {
+      "title": "W 60 dni zbudowałem od zera kompletne strategie marketingowe dla dwóch firm jednocześnie",
+      "body": "Sklep myśliwski i kancelaria prawna. Dwie różne branże, realizowane równolegle. Od analizy konkurencji, przez persony i komunikację marki, po lejki sprzedażowe, lead magnety i wdrożenie kanałów.",
+      "subtitle": "Co dostarczyłem",
+      "bullets": [
+        "Pełne strategie marketingowe oparte na deep research rynku",
+        "Lejki sprzedażowo-marketingowe z mechanikami konwersji",
+        "Unikalne propozycje wartości i komunikację marki",
+        "Wdrożenie operacyjne kanałów od zera",
+        "Systemy, które działają dalej beze mnie"
+      ],
+      "metrics": [
+        { "value": "60", "unit": "dni", "label": "od zera do systemu" },
+        { "value": "2", "unit": "", "label": "branże równolegle" },
+        { "value": "0→1", "unit": "", "label": "kompletna strategia" }
+      ]
+    },
+    "section8": {
+      "title": "Wybrany jako najlepszy z 60 kandydatów - mając 20 lat życia i dwa lata doświadczenia",
+      "body": "Na stanowisko marketingowe aplikowało 60 osób. Dostałem tę pracę, bo szerokość mojej wiedzy przekraczała przeciętną - strategia, psychologia sprzedaży, technologia i automatyzacja w jednym.",
+      "body2": "Równolegle zbudowałem z AI działające aplikacje - anonimizator dokumentów prawnych i generator designów - bez wcześniejszego doświadczenia w programowaniu.",
+      "metrics": [
+        { "value": "1", "unit": "z 60", "label": "kandydatów" },
+        { "value": "20+", "unit": "", "label": "systemów marketingowych" },
+        { "value": "1400", "unit": "", "label": "konwersji z organika" },
+        { "value": "2", "unit": "", "label": "aplikacje z AI" }
+      ]
+    },
+    "section9": {
+      "title": "Co wiem teraz, czego nie wiedziałem dwa lata temu",
+      "intro": "Każdy etap tej drogi - od łopaty, przez Vinted, cold calle, freelance, po AI - zostawił konkretne lekcje.",
+      "lessons": [
+        {
+          "title": "Product-market fit jest fundamentem",
+          "body": "Bez niego 3000 telefonów to 500 zł i lekcja pokory"
+        },
+        {
+          "title": "Diagnozuj system, nie symptom",
+          "body": "Klient mówi \"chcę stronę\", ale problem leży 10 poziomów niżej"
+        },
+        {
+          "title": "AI to mnożnik siły, nie zamiennik myślenia",
+          "body": "Jedna osoba z AI może dźwignąć to, co kiedyś wymagało zespołu, ale tylko jeśli kontroluje proces"
+        },
+        {
+          "title": "Buduj szeroko, potem pogłębiaj",
+          "body": "Marketing + sprzedaż + strategia + technologia to stack, który się mnoży"
+        },
+        {
+          "title": "Porażki uczą szybciej niż kursy",
+          "body": "Ale tylko jeśli wyciągasz z nich wnioski zamiast powtarzać błędy"
+        }
+      ],
+      "closing": "Następny krok: głębokie wejście w technologię. Backend, Python, frontendowe frameworki. Cel - połączyć marketing, strategię i technologię w stack, który pozwoli mi budować produkty, nie tylko je promować."
+    }
+  },
+  "footer": {
+    "built": "Zbudowane z AI",
+    "rights": "Wszelkie prawa zastrzeżone"
+  }
+}
