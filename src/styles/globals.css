@@ -10,14 +10,14 @@ html {
 }
 
 body {
-  background-color: #100B09;
-  color: #FAF6F1;
+  background-color: #000000;
+  color: #ffffff;
   font-family: 'Inter', system-ui, sans-serif;
 }
 
 ::selection {
-  background-color: rgba(192, 57, 43, 0.3);
-  color: #FAF6F1;
+  background-color: rgba(16, 185, 129, 0.25);
+  color: #ffffff;
 }
 
 ::-webkit-scrollbar {
@@ -25,16 +25,37 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #100B09;
+  background: #000000;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6B5B50;
+  background: #404040;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #B5A99B;
+  background: #10b981;
+}
+
+/* --- Wspolny system wizualny (LeftClick): orby + siatka tla --- */
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.grid-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  z-index: 0;
+  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
