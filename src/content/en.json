@@ -2,6 +2,8 @@
   "nav": {
     "home": "Home",
     "caseStudy": "Case Study",
+    "portal": "Portal",
+    "masking": "Masking",
     "contact": "Contact"
   },
   "hero": {

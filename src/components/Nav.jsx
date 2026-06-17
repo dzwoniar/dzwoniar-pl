@@ -44,6 +44,18 @@ export default function Nav() {
           >
             {t('nav.caseStudy')}
           </Link>
+          <a
+            href="https://anomy-portal-2-0.j-dzwoniarski5.workers.dev"
+            className="text-xs font-body font-medium uppercase tracking-[0.2em] text-muted hover:text-warm-white transition-colors"
+          >
+            {t('nav.portal')}
+          </a>
+          <a
+            href="https://anomy-maskowanie.j-dzwoniarski5.workers.dev"
+            className="text-xs font-body font-medium uppercase tracking-[0.2em] text-muted hover:text-warm-white transition-colors"
+          >
+            {t('nav.masking')}
+          </a>
           <LanguageSwitcher />
         </div>
       </div>
