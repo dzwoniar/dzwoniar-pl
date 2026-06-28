@@ -1,4 +1,56 @@
 {
+  "overflowCase": {
+    "card": {
+      "label": "Case Study · Overflow Agency",
+      "title": "Logo-to-website generator — 90% less designer time",
+      "description": "A tool that deterministically assembles a branded header + hero from a client's logo and copy, on Overflow's own system — in minutes, not hours."
+    },
+    "hero": {
+      "title": "From a client's logo to a finished, on-brand header + hero — deterministically, in minutes."
+    },
+    "section1": {
+      "title": "Every site takes ~3 hours, and the bottleneck is the designer",
+      "body": "Overflow Agency builds sites for construction trades on its own production system (base.css + components). The problem isn't writing code — it's the designer who, on every project, re-extracts colors from the logo, picks components and lays out the header + hero. Repetitive, slow work that eats time better spent on strategy and copy."
+    },
+    "section2": {
+      "title": "AI does the one thing it's genuinely good at: deriving the brand from the logo",
+      "body": "Instead of asking a model to invent a page, I flip the load. Hand-built templates on Overflow's base.css impose the structure, and the AI extracts a brand system from the logo — in two phases: --brand is the UI color (nav, links), --accent is the decision color (CTA). Contrast is enforced automatically (WCAG). The rest — assembly, variants, render — is deterministic and testable.",
+      "metricLeft": "1",
+      "metricLeftLabel": "AI call per logo (the rest is deterministic)",
+      "metricRight": "WCAG",
+      "metricRightLabel": "contrast enforced automatically"
+    },
+    "section3": {
+      "title": "Five steps from logo to shippable code",
+      "intro": "The pipeline mirrors Overflow's real Miro workflow — from logo upload to an export that drops 1:1 into their hub.",
+      "steps": [
+        { "title": "Intake", "body": "Upload the logo (SVG) and client copy: H1, services, contact, social." },
+        { "title": "Brand from logo", "body": "The system extracts colors and builds tokens in two phases: UI vs CTA. For INSTEC green dominates the logo (7×) but the CTA is blue — the tool catches that." },
+        { "title": "Assembly", "body": "Header + hero are slot-filled on Overflow's base.css. The output uses their token and class names — not a generic." },
+        { "title": "Variants", "body": "4 truly rendered variants per logo (color swaps, form layout) → a visual picker." },
+        { "title": "Export", "body": "Ready HTML + tokens.css. Drops 1:1 into the hub — no rework." }
+      ]
+    },
+    "section4": {
+      "title": "Proof in pixels, not promises",
+      "body": "The strongest proof is INSTEC side by side with Overflow's live build — regenerated from the logo and brief alone, with no manual designer work. The quality gate passes 7/7 logos: contrast ≥4.5:1, complete slots, one font.",
+      "metrics": [
+        { "value": "~90%", "label": "less designer time on header+hero" },
+        { "value": "7/7", "label": "logos through the quality gate" },
+        { "value": "4", "unit": "/logo", "label": "variants to choose from" }
+      ]
+    },
+    "section5": {
+      "title": "What this project taught me",
+      "intro": "Three things I'll carry into the next tools.",
+      "lessons": [
+        { "title": "Determinism > magic", "body": "AI does the one thing where it beats heuristics (brand from logo). The layout is template-driven and data-driven — testable, not random." },
+        { "title": "Token names lie", "body": "--brand is often the logo/decoration color, while the CTA uses a different token. Without that distinction the output looks almost right but clicks wrong." },
+        { "title": "Output on their system, not next to it", "body": "We generate on Overflow's base.css, with their class names. Zero foreign code = zero rework." }
+      ],
+      "closing": "The tool doesn't replace the designer — it gives time back. 90% of repetitive work disappears; craft and strategy remain."
+    }
+  },
   "nav": {
     "home": "Home",
     "caseStudy": "Case Study",
