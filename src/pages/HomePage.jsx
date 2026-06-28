@@ -63,30 +63,53 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Case Study Card */}
+      {/* Case Study Cards */}
       <section className="py-24 md:py-32">
         <div className="max-w-6xl mx-auto px-6">
-          <ScrollReveal>
-            <Link to="/case-study/my-journey" className="group block">
-              <div className="bg-surface border border-white/5 rounded-xl p-8 md:p-12 shadow-card hover:shadow-glow transition-all duration-500 hover:border-accent/20">
-                <p className="text-xs font-body font-medium uppercase tracking-[0.3em] text-accent mb-4">
-                  {t('caseStudy.card.label')}
-                </p>
-                <h2 className="font-display font-normal text-warm-white text-2xl md:text-4xl leading-tight mb-4 group-hover:text-accent transition-colors duration-300">
-                  {t('caseStudy.card.title')}
-                </h2>
-                <p className="text-muted font-body leading-relaxed max-w-2xl">
-                  {t('caseStudy.card.description')}
-                </p>
-                <div className="flex items-center gap-2 mt-6 text-accent text-sm font-body font-medium">
-                  <span>{t('hero.cta')}</span>
-                  <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                  </svg>
+          <div className="grid md:grid-cols-2 gap-6">
+            <ScrollReveal>
+              <Link to="/case-study/my-journey" className="group block h-full">
+                <div className="h-full flex flex-col bg-surface border border-white/5 rounded-xl p-8 md:p-10 shadow-card hover:shadow-glow transition-all duration-500 hover:border-accent/20">
+                  <p className="text-xs font-body font-medium uppercase tracking-[0.3em] text-accent mb-4">
+                    {t('caseStudy.card.label')}
+                  </p>
+                  <h2 className="font-display font-normal text-warm-white text-2xl md:text-3xl leading-tight mb-4 group-hover:text-accent transition-colors duration-300">
+                    {t('caseStudy.card.title')}
+                  </h2>
+                  <p className="text-muted font-body leading-relaxed">
+                    {t('caseStudy.card.description')}
+                  </p>
+                  <div className="flex items-center gap-2 mt-6 text-accent text-sm font-body font-medium">
+                    <span>{t('hero.cta')}</span>
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                  </div>
                 </div>
-              </div>
-            </Link>
-          </ScrollReveal>
+              </Link>
+            </ScrollReveal>
+            <ScrollReveal delay={0.1}>
+              <Link to="/case-study/overflow-generator" className="group block h-full">
+                <div className="h-full flex flex-col bg-surface border border-white/5 rounded-xl p-8 md:p-10 shadow-card hover:shadow-glow transition-all duration-500 hover:border-accent/20">
+                  <p className="text-xs font-body font-medium uppercase tracking-[0.3em] text-accent mb-4">
+                    {t('overflowCase.card.label')}
+                  </p>
+                  <h2 className="font-display font-normal text-warm-white text-2xl md:text-3xl leading-tight mb-4 group-hover:text-accent transition-colors duration-300">
+                    {t('overflowCase.card.title')}
+                  </h2>
+                  <p className="text-muted font-body leading-relaxed">
+                    {t('overflowCase.card.description')}
+                  </p>
+                  <div className="flex items-center gap-2 mt-6 text-accent text-sm font-body font-medium">
+                    <span>{t('hero.cta')}</span>
+                    <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+                  </div>
+                </div>
+              </Link>
+            </ScrollReveal>
+          </div>
         </div>
       </section>
 

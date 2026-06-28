@@ -1,4 +1,56 @@
 {
+  "overflowCase": {
+    "card": {
+      "label": "Case Study · Overflow Agency",
+      "title": "Generator stron z logo — 90% mniej pracy designera",
+      "description": "Narzędzie, które z logo i treści klienta deterministycznie składa zabrandowany header + hero na systemie Overflow — w minuty zamiast godzin."
+    },
+    "hero": {
+      "title": "Z logo klienta do gotowego, zabrandowanego header + hero — deterministycznie, w minuty."
+    },
+    "section1": {
+      "title": "Każda strona to ~3 godziny, a wąskim gardłem jest designer",
+      "body": "Overflow Agency buduje strony dla branż budowlanych na własnym systemie produkcyjnym (base.css + komponenty). Problem nie leży w pisaniu kodu — leży w designerze, który przy każdym projekcie od nowa wyciąga kolory z logo, dobiera komponenty i układa header + hero. To powtarzalna, wolna praca, która zjada czas mogący iść w strategię i copy."
+    },
+    "section2": {
+      "title": "AI robi jedną rzecz, w której jest naprawdę dobre: wyprowadza markę z logo",
+      "body": "Zamiast prosić model o „wymyślenie strony”, odwracam ciężar. Strukturę narzucają ręcznie zbudowane szablony na base.css Overflow, a AI wyciąga z logo system brandingowy — dwufazowo: --brand to kolor UI (nawigacja, linki), --accent to kolor decyzji (CTA). Kontrast pilnowany automatycznie (WCAG). Reszta — montaż, warianty, render — jest deterministyczna i testowalna.",
+      "metricLeft": "1",
+      "metricLeftLabel": "wywołanie AI na logo (reszta deterministyczna)",
+      "metricRight": "WCAG",
+      "metricRightLabel": "kontrast pilnowany automatycznie"
+    },
+    "section3": {
+      "title": "Pięć kroków od logo do gotowego kodu",
+      "intro": "Pipeline odwzorowuje realny workflow Overflow z Miro — od wgrania logo po eksport, który wpada 1:1 do ich huba.",
+      "steps": [
+        { "title": "Intake", "body": "Wgraj logo (SVG) i treść klienta: H1, usługi, kontakt, social." },
+        { "title": "Marka z logo", "body": "System wyciąga kolory z logo i buduje tokeny dwufazowo: UI vs CTA. Dla INSTEC zielony dominuje w logu (7×), ale CTA jest niebieskie — narzędzie to wyłapuje." },
+        { "title": "Montaż", "body": "Header + hero składane przez slot-fill na base.css Overflow. Output używa ich nazw tokenów i klas — to nie generyk." },
+        { "title": "Warianty", "body": "4 realnie wyrenderowane warianty na logo (zamiany kolorów, układ formularza) → wizualny picker." },
+        { "title": "Eksport", "body": "Gotowy HTML + tokens.css. Wpada 1:1 do huba — bez przeróbek." }
+      ]
+    },
+    "section4": {
+      "title": "Dowód w pikselach, nie w obietnicach",
+      "body": "Najmocniejszy dowód to INSTEC obok żywej realizacji Overflow — odtworzony z samego logo i briefu, bez ręcznej pracy designera. Bramka jakości przepuszcza 7/7 log: kontrast ≥4.5:1, komplet elementów, jeden font.",
+      "metrics": [
+        { "value": "~90%", "label": "mniej czasu designera na header+hero" },
+        { "value": "7/7", "label": "log przez bramkę jakości" },
+        { "value": "4", "unit": "/logo", "label": "warianty do wyboru" }
+      ]
+    },
+    "section5": {
+      "title": "Czego nauczył mnie ten projekt",
+      "intro": "Trzy rzeczy, które przeniosę do kolejnych narzędzi.",
+      "lessons": [
+        { "title": "Determinizm > magia", "body": "AI robi jedną rzecz, w której bije heurystyki (marka z logo). Układ jest szablonowy i sterowany danymi — testowalny, nie losowy." },
+        { "title": "Nazwy tokenów kłamią", "body": "--brand to często kolor logo/dekoracji, a CTA używa innego tokenu. Bez tego rozróżnienia output wygląda „prawie dobrze”, ale klika się źle." },
+        { "title": "Output na cudzym systemie, nie obok niego", "body": "Generujemy na base.css Overflow, ich nazwami klas. Zero obcego kodu = zero przeróbek." }
+      ],
+      "closing": "Narzędzie nie zastępuje designera — oddaje mu czas. 90% powtarzalnej pracy znika, zostaje rzemiosło i strategia."
+    }
+  },
   "nav": {
     "home": "Start",
     "caseStudy": "Case Study",
